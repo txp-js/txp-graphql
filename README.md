@@ -1,20 +1,32 @@
 # txp-graphql
 
+## Using [sql2graphql](https://github.com/txp-js/sql-to-graphql/blob/master/README.md)
+
 `git clone https://github.com/txp-js/sql-to-graphql.git`
 
 `npm install -g`
 
 `sql2graphql --db textpattern -u root -p root -h localhost -o textpattern --port 8889`
 
-outputs to /textpattern dir
+having changed the above values to match your situation
 
-cd textpattern
+should now have output to a /textpattern dir
+
+`cd textpattern`
 
 `npm install`
 
 `npm start`
 
 Go to http://localhost/8889
+
+I've included the generated folder in this repo. Look in the /textpattern directory. Remove this directory if you plan to run `sql2graphql` on your system as it will be gererated for you from your database. The database I used for this was from a fresh install of today's (March 2, 2020) latest release.
+
+
+Readme for sql-to-graphql -  https://github.com/txp-js/sql-to-graphql/blob/master/README.md
+Hopefully that will make some sense out of what just happened.
+
+If nothing else it's a start. 
 
 ## Schema
 
