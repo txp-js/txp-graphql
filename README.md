@@ -1,7 +1,20 @@
 # txp-graphql
-An Open Source Textpattern plugin that enables a GraphQL API for Textpattern sites
 
+`git clone https://github.com/txp-js/sql-to-graphql.git`
 
+`npm install -g`
+
+`sql2graphql --db textpattern -u root -p root -h localhost -o textpattern --port 8889`
+
+outputs to /textpattern dir
+
+cd textpattern
+
+`npm install`
+
+`npm start`
+
+Go to http://localhost/8889
 
 ## Schema
 
